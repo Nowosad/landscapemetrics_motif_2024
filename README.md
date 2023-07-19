@@ -7,5 +7,5 @@ add badges
 
 This repository contains the code and data for the examples presented in Nowosad and Hesselbarth *The landscapemetrics and motif packages for measuring landscape patterns and processes*<!--add book info and year-->
 
-<!--use renv>
-<!--expand explanation of the repo>
+1. Landscape metrics - [`R/landscape_metrics.R`](R/landscape_metrics.R)
+2. Pattern-based spatial analysis - [`R/pattern-based_spatial_analysis.R`](R/pattern-based_spatial_analysis.R)
