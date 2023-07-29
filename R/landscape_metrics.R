@@ -18,6 +18,7 @@ list_lsm(type="area and edge metric", level="class")
 df_p_shape <- lsm_p_shape(france)
 df_c_area <- lsm_c_area_mn(france)
 df_l_lpi <- lsm_l_lpi(france)
+df_l_lpi
 
 result_combined <- rbind(df_p_shape, df_c_area, df_l_lpi)
 result_range <- group_by(result_combined, metric) |> 
